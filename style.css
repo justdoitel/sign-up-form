@@ -90,18 +90,18 @@ i {
     text-transform: uppercase;
 }
 
-.questions {
+form {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     height: 60%;
 }
 
-input {
+.form input {
     width: 50%;
 }
 
-.questions>span {
+form>span {
     flex: 1 0 50%;
     min-width: 11em;
     padding-bottom: 1.5em;
@@ -112,7 +112,7 @@ input {
     background-color: hsl(0, 0%, 80%);
 }
 
-.bottom>button {
+.bottom>input {
     padding: 1em 3em;
     border-radius: 5px;
     border: 0;
@@ -120,7 +120,7 @@ input {
     color: white;
 }
 
-.bottom>button:hover{
+.bottom>input:hover{
     background-color: hsl(114, 67%, 14%);
 }
 
