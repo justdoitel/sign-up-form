@@ -25,27 +25,27 @@
             <form id="myform">
                 <span>
                     <label for="fname">First name</label>
-                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="fname" id="fname" pattern="[^\d]{2,}" placeholder="fname" required>
                 </span>
                 <span>
                     <label for="lname">Last name</label>
-                    <input type="text" name="lname" id="lname">
+                    <input type="text" name="lname" id="lname" pattern="[^\d]{2,}" placeholder="lname" required>
                 </span>
                 <span>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="youremail@service.com" required>
                 </span>
                 <span>
                     <label for="phone">Phone number</label>
-                    <input type="phone" name="phone" id="phone">
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" placeholder="xxx-xxx-xxxx" required>
                 </span>
                 <span>
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" placeholder="*******" required>
                 </span>
                 <span>
                     <label for="dpassword">Confirm Password</label>
-                    <input type="password" name="dpassword" id="dpassword">
+                    <input type="password" name="dpassword" id="dpassword" placeholder="*******" required>
                 </span>
             </form>
         </div>
@@ -54,5 +54,6 @@
             <p>Already have an account? <a href="google.com">Log in</a></p>
         </div>
     </div>
+    <script src="code.js"></script>
 </body>
 </html>

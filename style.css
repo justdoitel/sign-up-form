@@ -101,6 +101,18 @@ form {
     width: 50%;
 }
 
+.form input:invalid:not(:placeholder-shown), .invalid{
+    border-color: red;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+::-ms-input-placeholder {
+    color: transparent;
+}
+
 form>span {
     flex: 1 0 50%;
     min-width: 11em;
@@ -143,3 +155,4 @@ form>span {
         width: 100%;
     }
 }
+
