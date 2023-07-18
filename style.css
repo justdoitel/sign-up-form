@@ -1,6 +1,6 @@
 html,body {
     margin: 0;
-    height: 100svh;
+    min-height: 100svh;
     width: 100svw;
 }
 
@@ -18,7 +18,6 @@ body{
 
 .left {
     font-family: 'norse-bold';
-    height: 100%;
     background-image: url("bg.jpg");
     background-size: cover;
     width: 30%;
@@ -105,6 +104,7 @@ input {
 .questions>span {
     flex: 1 0 50%;
     min-width: 11em;
+    padding-bottom: 1.5em;
 }
 
 .bottom{
